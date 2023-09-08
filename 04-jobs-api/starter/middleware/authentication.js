@@ -12,6 +12,7 @@ const auth = (req,res,next)=>{
 
     try {
         const payload = jwt.verify(token,process.env.JWT_SECRET)
+/*         console.log(`Decoded Payload: ${JSON.stringify(payload)}`); */
         //attach user to job routes
         req.user={userID:payload.userID, name:payload.name}
         next()
