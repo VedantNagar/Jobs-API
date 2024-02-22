@@ -16,12 +16,12 @@ function Home() {
         </nav>
         <div className='container page'>
           <div className='info'>
-            <h1>job tracking app</h1>
+            <h1>Job tracking app</h1>
             <p>
-              I'm baby viral enamel pin chartreuse cliche retro af selfies
-              kinfolk photo booth plaid jianbing actually squid 3 wolf moon
-              lumbersexual. Hell of humblebrag gluten-free lo-fi man braid
-              leggings.
+              Stay organized and informed with our job tracking app!
+              Effortlessly monitor your job applications, see real-time updates
+              on application statuses, and take control of your career journey
+              all in one place.
             </p>
 
             <Link to='/register' className='btn hero-btn'>
