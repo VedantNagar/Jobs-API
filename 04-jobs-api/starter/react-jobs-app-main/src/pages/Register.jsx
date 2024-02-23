@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { useGlobalContext } from '../context/appContext';

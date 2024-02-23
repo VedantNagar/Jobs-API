@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams, Redirect, Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -118,7 +119,7 @@ function Update() {
 }
 const ErrorContainer = styled.section`
   text-align: center;
-  padding-top: 6rem; ;
+  padding-top: 6rem;
 `;
 
 const Container = styled.section`
