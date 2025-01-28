@@ -26,6 +26,7 @@ const allowedOrigins = [
   'http://localhost:4000',
   'https://jobs-tracker-app.onrender.com',
   "https://job-tracker-mtkq.onrender.com",
+  "https://job-tracker-1a3x.onrender.com",
 ];
 
 const corsOptions = {
